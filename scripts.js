@@ -105,11 +105,8 @@ function changeLink(){
 
 function rotateArrow(){
   $(".collapse-toggle, .ep-close").click(function () {
-    $(".ep-top p").toggleClass("light");
     var thisSection = $(this).closest("[id]").prop("id");
-    console.log(thisSection);
     $("#" + thisSection + " .collapse-toggle").toggleClass("rotate");
-    // $("#" + thisSection + " .ep-top p").toggleClass("light");
   });
 }
 

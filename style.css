@@ -85,9 +85,9 @@ section {
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 34px;
   margin-bottom: 50px;
-  line-height: 52px;
+  line-height: 47px;
 }
 
 .hero p {
@@ -119,8 +119,8 @@ section {
 
 .howitworks .slider-how p {
   font-family: "Lato-Light";
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .howitworks .slider-how p:first-child span {
@@ -268,10 +268,10 @@ p[aria-expanded="true"] .ep-title {
 }
 
 .ep-title {
-  font-family: "Lato-Hairline";
+  font-family: "Lato-Light";
   margin-top: 2px;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 26px;
+  line-height: 36px;
 }
 
 .ep-number,
@@ -320,7 +320,7 @@ p.ep-status-doing {
 
 .ep-desc .title {
   margin-top: 20px;
-  font-family: "Lato-Hairline";
+  font-family: "Lato-Light";
   font-size: 28px;
 }
 
@@ -600,7 +600,14 @@ footer .btn-dark img {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-
+  .hero h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .howitworks .slider-how p {
+    font-size: 18px;
+    line-height: 26px;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
