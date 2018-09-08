@@ -117,8 +117,8 @@ function rotateArrow(){
 
 $(document).ready(function(){  
 
-  changeLink();
-  epCollapse();  
+  // changeLink();
+  // epCollapse();  
   rotateArrow();
   pageScroll();
   scrollUp();
