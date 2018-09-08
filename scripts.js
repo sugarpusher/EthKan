@@ -147,52 +147,52 @@ $(document).ready(function(){
   // "WHO" SECTION SLIDER INITIALIZER START
   // ======================================
 
-  // $('.slider-who').slick({
-  //   infinite: true,
-  //   slidesToScroll: 1,
-  //   slidesToShow: 1,
-  //   centerMode: false,
-  //   autoplaySpeed: 5000,
-  //   mobileFirst: true,
-  //   prevArrow: "<i class='fa fa-angle-left slick-prev' aria-hidden='true'></i>",
-  //   nextArrow: "<i class='fa fa-angle-right slick-next' aria-hidden='true'></i>"
-  //   ,
-  //   responsive: [
-  //   {
-  //     breakpoint: 490,
-  //     settings: {
-  //       slidesToShow: 2
-  //     }
-  //   }
-  //   ,
-  //   {
-  //     breakpoint: 600,
-  //     settings: {
-  //       slidesToShow: 3
-  //     }
-  //   }
-  //   ,
-  //   {
-  //     breakpoint: 767,
-  //     settings: {
-  //       slidesToShow: 4
-  //     }
-  //   }
-  //   ,
-  //   {
-  //     breakpoint: 991,
-  //     settings: {
-  //       slidesToShow: 6
-  //     }
-  //   },
-  //   {
-  //     breakpoint: 1199,
-  //     settings: {
-  //       slidesToShow: 7
-  //     }
-  //   }
-  // ]
-  // });
+  $('.slider-who').slick({
+    infinite: true,
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    centerMode: false,
+    autoplaySpeed: 5000,
+    mobileFirst: true,
+    prevArrow: "<i class='fa fa-angle-left slick-prev' aria-hidden='true'></i>",
+    nextArrow: "<i class='fa fa-angle-right slick-next' aria-hidden='true'></i>"
+    ,
+    responsive: [
+    {
+      breakpoint: 490,
+      settings: {
+        slidesToShow: 2
+      }
+    }
+    ,
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 3
+      }
+    }
+    ,
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 4
+      }
+    }
+    ,
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 6
+      }
+    },
+    {
+      breakpoint: 1199,
+      settings: {
+        slidesToShow: 7
+      }
+    }
+  ]
+  });
 
   
 
