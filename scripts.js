@@ -107,6 +107,7 @@ function rotateArrow(){
   $(".collapse-toggle, .ep-close").click(function () {
     var thisSection = $(this).closest("[id]").prop("id");
     $("#" + thisSection + " .collapse-toggle").toggleClass("rotate");
+    $(".collapse-toggle").not(this).removeClass("rotate");
   });
 }
 
@@ -118,10 +119,10 @@ function rotateArrow(){
 $(document).ready(function(){  
 
   // changeLink();
-  // epCollapse();  
-  // rotateArrow();
-  // pageScroll();
-  // scrollUp();
+  epCollapse();  
+  rotateArrow();
+  pageScroll();
+  scrollUp();
 
   // ======================================
   // "HOW" SECTION SLIDER INITIALIZER START
@@ -132,7 +133,7 @@ $(document).ready(function(){
     slidesToScroll: 1,
     slidesToShow: 1,
     centerMode: false,
-    autoplay: true,
+    autoplay: false,
     mobileFirst: true,
     dots: true,
     prevArrow: "<i class='fa fa-angle-left slick-prev' aria-hidden='true'></i>",

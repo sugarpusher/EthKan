@@ -243,6 +243,7 @@ p[aria-expanded="true"] .ep-title {
 .gh-link a > span,
 .ep-section .ep-close {
   border-bottom: 1px dotted #666666;
+  line-height: 20px;
 }
 
 .ep-section .ep-close {
