@@ -136,11 +136,11 @@ section {
 
 .collapse-toggle {
   position: absolute;
-  top: 28px;
-  left: -26px;
+  top: 15px;
+  left: -36px;
   cursor: pointer;
   transition: transform 0.5s;
-  padding: 2px 5px;
+  padding: 15px;
   z-index: 100;
 }
 
@@ -250,6 +250,11 @@ p[aria-expanded="true"] .ep-title {
   cursor: pointer;
 }
 
+.ep-section .ep-close-wrapper,
+.ep-section .ep-close {
+  display: none !important;
+}
+
 .ep-section {
   font-size: 25px;
   line-height: 35px;
@@ -263,7 +268,7 @@ p[aria-expanded="true"] .ep-title {
 }
 
 #s01e01 .collapse-toggle {
-  top: 2px;
+  top: -11px;
 }
 
 .ep-section:last-child {

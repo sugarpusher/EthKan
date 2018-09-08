@@ -78,7 +78,8 @@ function epCollapse(){
     }
   } else {
     if($(".collapse.ep-desc" ).hasClass( "show" )){ 
-      $('.ep-icon, .ep-desc, .ep-video, .ep-close').removeClass("show");
+      // $('.ep-icon, .ep-desc, .ep-video, .ep-close').removeClass("show");
+      $('.ep-icon, .ep-desc, .ep-video').removeClass("show");
     }
   }
 }
@@ -87,24 +88,24 @@ function epCollapse(){
 // CHANGE "more" LINK TEXT WHEN CLICKED (SHOW MORE/SHOW LESS)
 // ===================================================
 
-function changeLink(){
-  $("a.more").click(function () {
-    var more = $(this).attr("moretext");
-    if (typeof more !== typeof undefined && more !== false) {
-      // console.log(more); 
-      $(this).text(function(i, text){
-          return text === "show less" ? more : "show less";
-      })
-    }
-  });
-}
+// function changeLink(){
+//   $("a.more").click(function () {
+//     var more = $(this).attr("moretext");
+//     if (typeof more !== typeof undefined && more !== false) {
+//       $(this).text(function(i, text){
+//           return text === "show less" ? more : "show less";
+//       })
+//     }
+//   });
+// }
 
 // ===================================================
-// ROTATE COLLAPSE ARROW AND CHANGE TITLE COLOR
+// ROTATE COLLAPSE ARROW
 // ===================================================
 
 function rotateArrow(){
-  $(".collapse-toggle, .ep-close").click(function () {
+  // $(".collapse-toggle, .ep-close").click(function () {
+  $(".collapse-toggle").click(function () {
     var thisSection = $(this).closest("[id]").prop("id");
     $("#" + thisSection + " .collapse-toggle").toggleClass("rotate");
     $(".collapse-toggle").not(this).removeClass("rotate");
@@ -199,5 +200,4 @@ $(document).ready(function(){
 
 $(window).on('resize', function(){
   epCollapse();
-  // getHeight('#contribute .card-body p:first-child', '.#contribute .card-body p:first-child');
 });
