@@ -119,9 +119,9 @@ $(document).ready(function(){
 
   // changeLink();
   // epCollapse();  
-  rotateArrow();
-  pageScroll();
-  scrollUp();
+  // rotateArrow();
+  // pageScroll();
+  // scrollUp();
 
   // ======================================
   // "HOW" SECTION SLIDER INITIALIZER START
