@@ -215,29 +215,37 @@ p[aria-expanded="true"] .ep-title {
 }
 
 .gh-link a span,
-.ep-section .ep-close {
+.ep-section .ep-close-wrapper {
   margin-top: 22px;
   font-size: 16px;
   color: #666666;
 }
 
 .gh-link a span,
-.ep-section .ep-close {
+.ep-section .ep-close-wrapper {
   margin-top: 22px;
   font-size: 16px;
   color: #666666;
 }
 
-.gh-link.ep-close {
+.gh-link.ep-close-wrapper {
   margin-bottom: 0;
 }
 
+.ep-section .ep-close-wrapper {
+  text-align: right;
+}
+
+.ep-section .ep-close.collapse.show {
+  display: inline-block;
+}
+
 .gh-link a > span,
-.ep-section .ep-close span {
+.ep-section .ep-close {
   border-bottom: 1px dotted #666666;
 }
 
-.ep-section .ep-close span {
+.ep-section .ep-close {
   cursor: pointer;
 }
 
@@ -287,7 +295,7 @@ p[aria-expanded="true"] .ep-title {
 
 .ep-status {
   font-family: "Lato-Regular";
-  font-size: 14px;
+  font-size: 16px;
   line-height: 100%;
   color: #ffffff;
   padding: 6px 8px;
