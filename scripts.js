@@ -194,7 +194,14 @@ $(document).ready(function(){
   // ]
   // });
 
-  
+  // ==================================
+  // BOOTSTRAP CAROUSEL HOW
+  // ==================================
+
+  $('#slider-how').carousel({
+    interval: false,
+    keyboard: false
+  })
 
 });
 
