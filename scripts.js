@@ -120,10 +120,10 @@ function rotateArrow(){
 $(document).ready(function(){  
 
   // changeLink();
-  epCollapse();  
-  rotateArrow();
-  pageScroll();
-  scrollUp();
+  // epCollapse();  
+  // rotateArrow();
+  // pageScroll();
+  // scrollUp();
 
   // ======================================
   // "HOW" SECTION SLIDER INITIALIZER START
@@ -198,5 +198,5 @@ $(document).ready(function(){
 });
 
 $(window).on('resize', function(){
-  epCollapse();
+  // epCollapse();
 });
