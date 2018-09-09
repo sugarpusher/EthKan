@@ -411,15 +411,6 @@ footer .section-title {
 
 /* HOW-SLIDER STYLES START */
 
-.carousel-indicators li {
-  background-color: #999999;
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  background-image: none;
-}
-
 .slider-how img {
   max-width: 100%;
 }

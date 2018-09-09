@@ -107,6 +107,7 @@ function rotateArrow(){
   // $(".collapse-toggle, .ep-close").click(function () {
   $(".collapse-toggle").click(function () {
     var thisSection = $(this).closest("[id]").prop("id");
+    // console.log(thisSection);
     $("#" + thisSection + " .collapse-toggle").toggleClass("rotate");
     $(".collapse-toggle").not(this).removeClass("rotate");
   });
