@@ -129,17 +129,17 @@ $(document).ready(function(){
   // "HOW" SECTION SLIDER INITIALIZER START
   // ======================================
 
-  $('.slider-how').slick({
-    // infinite: true,
-    // slidesToScroll: 1,
-    // slidesToShow: 1,
-    // centerMode: false,
-    // autoplay: false,
-    // mobileFirst: true,
-    // dots: true,
-    // prevArrow: "<i class='fa fa-angle-left slick-prev' aria-hidden='true'></i>",
-    // nextArrow: "<i class='fa fa-angle-right slick-next' aria-hidden='true'></i>"
-  });
+  // $('.slider-how').slick({
+  //   infinite: true,
+  //   slidesToScroll: 1,
+  //   slidesToShow: 1,
+  //   centerMode: false,
+  //   autoplay: false,
+  //   mobileFirst: true,
+  //   dots: true,
+  //   prevArrow: "<i class='fa fa-angle-left slick-prev' aria-hidden='true'></i>",
+  //   nextArrow: "<i class='fa fa-angle-right slick-next' aria-hidden='true'></i>"
+  // });
 
 
 
