@@ -120,9 +120,9 @@ function rotateArrow(){
 $(document).ready(function(){  
 
   // changeLink();
-  // epCollapse();  
+  epCollapse();  
   rotateArrow();
-  // pageScroll();
+  pageScroll();
   // scrollUp();
 
   // ======================================
