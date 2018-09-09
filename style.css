@@ -134,6 +134,13 @@ section {
   margin-bottom: 30px;
 }
 
+#roadmap > .container > p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 40px;
+  margin-top: -20px;
+}
+
 .collapse-toggle {
   position: absolute;
   top: 15px;
@@ -346,6 +353,13 @@ p.ep-status-doing {
   font-family: "Lato-Bold";
   color: #d8735f;
   font-size: 15px;
+  text-decoration: none;
+  border-bottom: 1px dotted #d8735f;
+}
+
+a.link {
+  font-family: "Lato-Regular";
+  color: #d8735f;
   text-decoration: none;
   border-bottom: 1px dotted #d8735f;
 }
@@ -633,6 +647,9 @@ footer .btn-dark img {
   .width-tester {
     width: 768px;
   }
+  #roadmap > .container > p {
+    font-size: 19px;
+  }
   .collapse-toggle {
     display: none;
   }
@@ -668,6 +685,10 @@ footer .btn-dark img {
   .howitworks .slider-how p {
     font-size: 20px;
     line-height: 32px;
+  }
+  #roadmap > .container > p {
+    font-size: 20px;
+    line-height: 30px;
   }
   .readmore a {
     font-size: 17px;
