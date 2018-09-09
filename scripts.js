@@ -8,6 +8,7 @@ function pageScroll(){
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
+  .not('[href^="#s01"]')
   .click(function(event) {
     // On-page links
     if (
@@ -73,6 +74,7 @@ function scrollUp(){
 
 function epCollapse(){
   if ($(".width-tester").css("width") == "768px") {
+    $(".ep-more").removeClass("show");
     if(!$(".collapse.ep-desc").hasClass( "show" )){ 
       $('.ep-icon, .ep-desc, .ep-video').addClass("show");
     }
@@ -88,16 +90,16 @@ function epCollapse(){
 // CHANGE "more" LINK TEXT WHEN CLICKED (SHOW MORE/SHOW LESS)
 // ===================================================
 
-// function changeLink(){
-//   $("a.more").click(function () {
-//     var more = $(this).attr("moretext");
-//     if (typeof more !== typeof undefined && more !== false) {
-//       $(this).text(function(i, text){
-//           return text === "show less" ? more : "show less";
-//       })
-//     }
-//   });
-// }
+function changeLink(){
+  $("a.more").click(function () {
+    var more = $(this).attr("moretext");
+    if (typeof more !== typeof undefined && more !== false) {
+      $(this).text(function(i, text){
+          return text === "show less" ? more : "show less";
+      })
+    }
+  });
+}
 
 // ===================================================
 // ROTATE COLLAPSE ARROW
@@ -120,7 +122,7 @@ function rotateArrow(){
 
 $(document).ready(function(){  
 
-  // changeLink();
+  changeLink();
   epCollapse();  
   rotateArrow();
   pageScroll();

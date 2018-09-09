@@ -350,6 +350,10 @@ p.ep-status-doing {
   border-bottom: 1px dotted #d8735f;
 }
 
+.ep-desc .readmore {
+  display: none;
+}
+
 #contribute .readmore {
   text-align: center;
 }
@@ -631,6 +635,9 @@ footer .btn-dark img {
   }
   .collapse-toggle {
     display: none;
+  }
+  .ep-desc .readmore {
+    display: block;
   }
   .slider-who .slick-slide img {
     max-width: 70px;
