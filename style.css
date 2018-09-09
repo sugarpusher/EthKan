@@ -677,6 +677,7 @@ footer .btn-dark img {
   .hero p {
     font-size: 24px;
     line-height: 36px;
+    margin-bottom: 1.5rem;
   }
   .howitworks .slider-how p:first-child span {
     font-size: 40px;

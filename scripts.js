@@ -153,7 +153,7 @@ $(document).ready(function(){
   $('.slider-who').slick({
     infinite: true,
     slidesToScroll: 1,
-    slidesToShow: 1,
+    slidesToShow: 2,
     centerMode: false,
     autoplaySpeed: 5000,
     mobileFirst: true,
