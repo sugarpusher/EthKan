@@ -121,7 +121,7 @@ $(document).ready(function(){
 
   // changeLink();
   // epCollapse();  
-  // rotateArrow();
+  rotateArrow();
   // pageScroll();
   // scrollUp();
 
