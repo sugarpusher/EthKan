@@ -123,7 +123,7 @@ $(document).ready(function(){
   epCollapse();  
   rotateArrow();
   pageScroll();
-  // scrollUp();
+  scrollUp();
 
   // ======================================
   // "HOW" SECTION SLIDER INITIALIZER START
@@ -197,6 +197,6 @@ $(document).ready(function(){
 
 });
 
-$(window).on('resize', function(){
-  epCollapse();
-});
+// $(window).on('resize', function(){
+//   epCollapse();
+// });
